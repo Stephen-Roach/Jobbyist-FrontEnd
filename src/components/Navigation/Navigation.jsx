@@ -5,14 +5,6 @@ const navbarImg = process.env.PUBLIC_URL + '/images/';
 
 function Navigation() {
   return (
-    // <div className='navbar'>
-    //   <img
-    //     className='navbar__Logo'
-    //     src={`${navbarImg}jobbyist-logo.png`}
-    //     alt='logo'
-    //   />
-    //   <h1>This is a navbar!</h1>
-    // </div>
     <>
       <Navbar bg='dark' variant='dark'>
         <Navbar.Brand href='#home'>
@@ -25,8 +17,8 @@ function Navigation() {
         </Navbar.Brand>
         <Nav className='mr-auto'>
           <Nav.Link href='#home'>Home</Nav.Link>
-          <Nav.Link href='#features'>Features</Nav.Link>
-          <Nav.Link href='#pricing'>Pricing</Nav.Link>
+          <Nav.Link href='#features'>Find Jobs</Nav.Link>
+          <Nav.Link href='#pricing'>Search Salaries</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type='text' placeholder='Search' className='mr-sm-2' />
