@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Navigation from './components/Navigation';
+import Home from './components/Homepage/Home';
+import Navigation from './components/Navigation/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
