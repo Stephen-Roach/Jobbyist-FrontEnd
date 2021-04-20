@@ -1,7 +1,12 @@
 import React from 'react';
+import Login from '../Forms/Login/Login';
 
 function Home() {
-  return <div>Hello Humans</div>;
+  return (
+    <div className='homepage'>
+      <Login />
+    </div>
+  );
 }
 
 export default Home;
